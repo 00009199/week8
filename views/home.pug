@@ -1,10 +1,11 @@
 extends layout.pug
 
 
-block Begzod
+block content
 
-  main
-    p This is note taking app. You can create and delete notes.
+  main.container
+    p.intro-msg This is note taking app. You can create and delete notes.
 
 
-    a(href='/create') Create Note
+
+    a(href='/create').featured Create Note
